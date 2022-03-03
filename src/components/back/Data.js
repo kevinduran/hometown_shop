@@ -57,3 +57,6 @@ const data = [
     }
 ]
 
+//ALWAYS REMEMBER TO EXPORT
+
+export default data
