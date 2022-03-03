@@ -3,57 +3,57 @@
 const data = [
     {
         id:"1",
-        name: "ball",
-        price: 24,
-        image: ""
+        name: "hand of god",
+        price: 22,
+        image: "./assets/clothes1Small.png"
+    },
+    {
+        id:"2",
+        name: "sudden death",
+        price: 55,
+        image: "./assets/clothes2Small.png"
     },
     {
         id:"3",
-        name: "cleats",
-        price: 79,
-        image: ""
+        name: "views",
+        price: 30,
+        image: "./assets/clothes3Small.png"
     },
     {
         id:"4",
-        name: "jersey",
-        price: 89,
-        image: ""
+        name: "vanilla",
+        price: 22,
+        image: "./assets/clothes4Small.png"
     },
     {
         id:"5",
-        name: "nets",
-        price: 200,
-        image: ""
+        name: "sad girl hours",
+        price: 27,
+        image: "./assets/clothes5Small.png"
     },
     {
         id:"6",
-        name: "cones",
-        price: 12,
-        image: ""
+        name: "life is strange",
+        price: 30,
+        image: "./assets/clothes6Small.png"
     },
     {
         id:"7",
-        name: "tape",
-        price: 8,
-        image: ""
+        name: "sum of its parts",
+        price: 22,
+        image: "./assets/clothes7Small.png"
     },
     {
         id:"8",
-        name: "gear bag",
-        price: 35,
-        image: ""
+        name: "the owl",
+        price: 20,
+        image: "./assets/clothes8Small.png"
     },
     {
         id:"9",
-        name: "",
-        price: 89,
-        image: ""
-    },
-    {
-        id:"10",
-        name: "jersey",
-        price: 89,
-        image: ""
+        name: "kakarot",
+        price: 35,
+        image: "./assets/clothes9Small.png"
     }
 ]
 
