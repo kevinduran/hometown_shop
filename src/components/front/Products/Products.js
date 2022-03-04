@@ -1,16 +1,10 @@
 import React from 'react'
 import './Products.css'
 
-function Products({productItems}) {
+const Products = ({productItems})=> {
     return (
         <div className="products">   
-           {productItems.map( (productItem) => (
-               <div className="card">
-                   <div>
-                       <img src={productItem.image} alt={productItem.name} className="product-image" />
-                   </div>
-               </div>
-           ))}
+           {console.log(productItems)}
         </div>
     )
 }
