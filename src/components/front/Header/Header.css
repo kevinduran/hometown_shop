@@ -1,7 +1,7 @@
 .header{
     position:sticky;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin: 0 auto;
     width:80%;
@@ -15,9 +15,25 @@
     text-decoration: none;
     text-transform: uppercase;
     color: rgb(214, 209, 209);
-    padding-left: 40px;
 }
 
 .header-links{
     display: flex;
+}
+
+.header-links ul li {
+    list-style:none;
+    display: inline-block;
+    font-size:18px;
+}
+
+.header-links ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 0 15px;
+}
+
+.header-links ul li a:hover {
+    color: red;
 }

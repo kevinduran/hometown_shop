@@ -8,7 +8,7 @@ export default function Header() {
             <div>
                 <h1>
                     <Link to='/' className='logo'>
-                        Hometown Barbershop Apparel
+                        Hometown Apparel
                     </Link>
                 </h1>
             </div>
