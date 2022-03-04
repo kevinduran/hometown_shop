@@ -1,0 +1,23 @@
+.header{
+    position:sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width:80%;
+    min-height: 80px;
+    top:0;
+    overflow: hidden;
+
+}
+
+.logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(214, 209, 209);
+    padding-left: 40px;
+}
+
+.header-links{
+    display: flex;
+}

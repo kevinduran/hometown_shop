@@ -21,7 +21,9 @@ export default function Header() {
                         <Link to='/signup'>Sign-Up</Link>
                     </li>
                     <li>
-                        <Link to='/cart'>Cart</Link>
+                        <Link to='/cart' className="cart">
+                            <i class="fas fa-shopping-cart"></i>
+                        </Link>
                     </li>
                 </ul>
             </div>
