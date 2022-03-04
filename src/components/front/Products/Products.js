@@ -4,7 +4,9 @@ import './Products.css'
 const Products = ({productItems})=> {
     return (
         <div className="products">   
-           {console.log(productItems)}
+           {productItems.map((item)=>{
+             return <img src={item.image} alt={item.name} />
+           })}
         </div>
     )
 }

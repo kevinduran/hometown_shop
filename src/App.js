@@ -6,7 +6,6 @@ import Routez from './components/front/Routes/Routez'
 
 
 function App() {
-
   const {productItems} = data;
 
   return (
