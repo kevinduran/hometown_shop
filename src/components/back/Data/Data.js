@@ -46,7 +46,7 @@ const data = {
         },
         {
             id:"8",
-            name: "the owl",
+            name: "court of owls",
             price: 20,
             image: "./assets/clothes8Small.png"
         },
