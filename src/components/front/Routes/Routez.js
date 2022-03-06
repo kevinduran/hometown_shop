@@ -5,14 +5,13 @@ import Signup from '../Signup/Signup'
 import Cart from '../Cart/Cart'
 
 
-export default function Routez({productItems}) {
+export default function Routez({productItems,cartItems, handleAddProduct}) {
     return (
         <div>
             <Routes>
-                <Route path='/' exact  element={<Products productItems={productItems} />}/>
-                <Route path='/signup' exact  element={<Signup  />}/>
-                <Route path='/cart' exact  element={<Cart  />}/>
-
+                <Route path='/' exact  element={<Products productItems={productItems} handleAddProduct={handleAddProduct} />}/>
+                <Route path='/signup' exact  element={<Signup />}/>
+                <Route path='/cart' exact  element={<Cart cartItems={cartItems} handleAddProduct={handleAddProduct} />}/>
             </Routes>
         </div>
     )
