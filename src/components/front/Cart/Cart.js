@@ -36,7 +36,7 @@ function Cart({cartItems,handleAddProduct,handleRemoveProduct}) {
             </div>    
 
             <div className="cart-items-total-price-name">
-                Total Price...
+                Total Price:
                 <div className="cart-item-total-price">
                     ${totalPrice}
                 </div>
