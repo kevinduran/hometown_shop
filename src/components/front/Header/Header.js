@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './Header.css'
 
-export default function Header() {
+export default function Header({cartItems}) {
     return (
         <header className="header">
             <div>
@@ -23,6 +23,9 @@ export default function Header() {
                     <li>
                         <Link to='/cart' className="cart">
                             <i class="fas fa-shopping-cart"></i>
+                            <span className="cart-length">
+                                {cartItems.length === 0 ? "" : cartItems.length}
+                            </span> 
                         </Link>
                     </li>
                 </ul>
