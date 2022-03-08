@@ -1,24 +1,23 @@
 .header{
-    position:sticky;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    width:80%;
-    min-height: 80px;
-    top:0;
-    overflow: hidden;
-
+    width:87%;
 }
 
-.logo{
-    text-decoration: none;
-    text-transform: uppercase;
-    color: rgb(214, 209, 209);
+.logo-image{
+   max-width: 55%;
 }
 
+.header-logo{
+    display: flex;
+    flex: 2;
+}
 .header-links{
     display: flex;
+    justify-content: center;
+    flex: 2;
 }
 
 .header-links ul li {

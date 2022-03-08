@@ -5,12 +5,10 @@ import './Header.css'
 export default function Header({cartItems}) {
     return (
         <header className="header">
-            <div>
-                <h1>
-                    <Link to='/' className='logo'>
-                        Hometown Apparel
-                    </Link>
-                </h1>
+            <div className="header-logo">
+                <Link to='/' className='logo'>
+                        <img className="logo-image" alt='logo' src='assets/logoNameSmall.png' />
+                </Link>
             </div>
             <div className="header-links">
                 <ul>
