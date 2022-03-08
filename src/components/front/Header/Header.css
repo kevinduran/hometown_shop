@@ -4,6 +4,7 @@
     align-items: center;
     margin: 0 auto;
     width:87%;
+    padding: 15px 0;
 }
 
 .logo-image{
@@ -29,10 +30,10 @@
 .header-links ul li a {
     text-decoration: none;
     text-transform: uppercase;
-    color: white;
+    color: rgb(202, 196, 196);
     padding: 0 15px;
 }
 
 .header-links ul li a:hover {
-    color: red;
+    color: rgba(245, 199, 26, 1);
 }
