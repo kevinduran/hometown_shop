@@ -42,12 +42,9 @@
     padding: 20px 20px 20px;
     font-size: 20px;
     font-weight: 700;
-    margin-left: 5%;
+    border: 1px solid green;
 }
 
-.cart-items-name, .cart-items-function {
-    width: 25%;    
-}
 
 .cart-items-add, .cart-items-remove {
     width:30px;
