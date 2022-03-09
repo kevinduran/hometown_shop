@@ -18,29 +18,33 @@
     padding: 10px;
     margin:40px 20px;
     background-color:rgb(202, 196, 196);
-    ;
+    
 }
 
 .product-image{
     width:80%;
     max-width: 300px;
-    min-height: 240px;
-    max-height: 235px;
+    min-height: 220px;
+    max-height: 255px;
     display: block;
     object-fit: cover;
     margin: 0 auto;
 }
 
 .product-name{
-    text-transform: uppercase;
     margin: 10px 0;
+    color:rgb(202, 196, 196);
+    line-height: 30px;
+
 }
 
 .product-price{
-    margin:10px 0;
-    padding-bottom:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size:18px;
     line-height: 30px;
+    color:rgb(202, 196, 196);
 }
 
 .product-add-button {
