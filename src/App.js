@@ -5,7 +5,6 @@ import data from './components/back/Data/Data';
 import Header from './components/front/Header/Header'
 import {BrowserRouter as Router} from 'react-router-dom'
 import Routez from './components/front/Routes/Routez'
-import Top from './components/front/Top/Top'
 
 
 function App() {
@@ -46,7 +45,6 @@ function App() {
     <div className="App">
       <Router>
         <Header cartItems={cartItems} />
-        <Top />
         <Routez 
           productItems={productItems} 
           cartItems={cartItems} 

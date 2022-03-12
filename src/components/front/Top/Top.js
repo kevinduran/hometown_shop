@@ -1,10 +1,11 @@
 import React from 'react'
+import './top.css'
 
 export default function Top() {
     return (
         <>
             <div className='shopImageContainer'>
-                <img src='./assets/shop_header.jpg' alt="barbershop" />
+                hello friend
             </div>    
         </>
         
