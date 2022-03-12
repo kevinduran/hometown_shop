@@ -7,7 +7,7 @@ import Cart from '../Cart/Cart'
 
 export default function Routez({productItems,cartItems, handleAddProduct,handleRemoveProduct,handleCartClearance}) {
     return (
-        <div>
+        <div> 
             <Routes>
                 <Route path='/' exact  element={<Products productItems={productItems} handleAddProduct={handleAddProduct} />}/>
                 <Route path='/signup' exact  element={<Signup />}/>
