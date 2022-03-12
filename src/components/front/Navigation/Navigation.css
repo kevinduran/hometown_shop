@@ -1,9 +1,9 @@
 .navigation{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin: 0 auto;
-    width:87%;
+    width:100%;
     padding: 15px 0;
 }
 
@@ -14,10 +14,12 @@
 .navigation-logo{
     display: flex;
     flex: 2;
+    justify-content: flex-start;
+
 }
 .navigation-links{
     display: flex;
-    justify-content: center;
+    justify-content: end;
     flex: 2;
 }
 

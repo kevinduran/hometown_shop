@@ -13,7 +13,7 @@ export default function Navigation ({cartItems}) {
             <div className="navigation-links">
                 <ul>
                     <li>
-                        <Link to='/'>Home</Link>
+                        <Link to='/'>Shop</Link>
                     </li>
                     {/* <li>
                         <Link to='/signup'>Sign-Up</Link>
