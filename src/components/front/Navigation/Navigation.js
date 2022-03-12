@@ -1,16 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import './Header.css'
+import './Navigation.css'
 
-export default function Header({cartItems}) {
+export default function Navigation ({cartItems}) {
     return (
-        <header className="header">
-            <div className="header-logo">
+        <header className="navigation">
+            <div className="navigation-logo">
                 <Link to='/' className='logo'>
                         <img className="logo-image" alt='logo' src='assets/logoNameSmall.png' />
                 </Link>
             </div>
-            <div className="header-links">
+            <div className="navigation-links">
                 <ul>
                     <li>
                         <Link to='/'>Home</Link>

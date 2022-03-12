@@ -1,5 +1,4 @@
 import React from 'react'
-import Top from '../Top/Top'
 import './Products.css'
 
 
@@ -10,7 +9,6 @@ const Products = ({productItems, handleAddProduct})=> {
 
     return (
         <div className="products">  
-            <Top/>
            {productItems.map((item)=>{
             return(
                 <div className="card">

@@ -1,4 +1,3 @@
-//we begin by making an array filled with product data
 
 const data = {
     productItems:[
@@ -59,6 +58,5 @@ const data = {
     ]
 } 
 
-//ALWAYS REMEMBER TO EXPORT
 
 export default data
