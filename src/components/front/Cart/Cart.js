@@ -45,9 +45,9 @@ function Cart({cartItems,handleAddProduct,handleRemoveProduct,handleCartClearanc
             </div>    
 
             <div className="cart-items-total-price-name">
-                Total Price:
+                <p>Total Price </p> 
                 <div className="cart-item-total-price">
-                    ${totalPrice}
+                    : ${totalPrice}
                 </div>
             </div>
         </div>  
