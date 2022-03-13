@@ -25,11 +25,11 @@ function Cart({cartItems,handleAddProduct,handleRemoveProduct,handleCartClearanc
                                 src={item.image} 
                                 className="cart-items-image" 
                             />
+                        </div>
+                        <div>
                             <div className="cart-items-name">
                                 {item.name}
                             </div>
-                        </div>
-                        <div>
                             <div className="cart-items-functions">
                                 <button className="cart-items-add" onClick={()=> handleAddProduct(item)}>+</button>
                                 <button className="cart-items-remove" onClick={()=> handleRemoveProduct(item)}>-</button>
