@@ -3,12 +3,13 @@
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
-    width:100%;
-    padding: 15px 0;
+    width:80%;
+    padding: 20px 0;
 }
 
 .logo-image{
-   max-width: 55%;
+   width: 45%;
+   max-width: 555px;
 }
 
 .navigation-logo{
