@@ -1,27 +1,28 @@
 .navigation{
     display: flex;
-    justify-content: space-around;
     align-items: center;
     margin: 0 auto;
-    width:80%;
+    width:75%;
     padding: 20px 0;
 }
 
 .logo-image{
    width: 45%;
    max-width: 555px;
+   min-width: 150px;
+   display: flex;
+   justify-content: flex-start;
 }
 
 .navigation-logo{
     display: flex;
     flex: 2;
-    justify-content: flex-start;
-
 }
 .navigation-links{
     display: flex;
     justify-content: end;
     flex: 2;
+
 }
 
 .navigation-links ul li {
