@@ -53,7 +53,7 @@
     border-radius:5px;
     border: none;
     outline:none;
-    background-color:  rgba(245, 199, 26, 1);
+    background-color:  rgba(245, 199, 26, 0.6);
     color: rgb(17, 15, 15);
     width: 69%;
     height: 45px;
@@ -65,7 +65,8 @@
 
 
 .product-add-button:hover {
-    background-color: red;
+    background-color: rgba(245, 199, 26, 1);
+    cursor: pointer;
 }
 
 .product-add-button:active{
