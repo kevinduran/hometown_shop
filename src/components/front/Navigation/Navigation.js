@@ -4,11 +4,12 @@ import './Navigation.css'
 
 export default function Navigation ({cartItems}) {
     return (
-        <header className="navigation">
-            <div className="navigation-logo">
-                <Link to='/' className='logo'>
-                        <img className="logo-image" alt='logo' src='assets/logoNameSmall.png' />
-                </Link>
+        <nav className="navigation">
+            <div className="navigation-logo">          
+                <a href='https://hometownbarbershop805.com/' className='logo' >
+                    <img className="logo-image" alt='logo' src='assets/logoNameSmall.png' />
+                </a>
+               
             </div>
             <div className="navigation-links">
                 <ul>
@@ -28,7 +29,7 @@ export default function Navigation ({cartItems}) {
                     </li>
                 </ul>
             </div>
-        </header>
+        </nav>
     )
 }
 
