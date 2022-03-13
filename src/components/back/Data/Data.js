@@ -3,9 +3,9 @@ const data = {
     productItems:[
         {
             id:"1",
-            name: "hand of god",
-            price: 21.99,
-            image: "./assets/clothes1Small.png"
+            name: "hometown in my blood",
+            price: 39.99,
+            image: "./assets/clothes10.png"
         },
         {
             id:"2",
@@ -54,7 +54,14 @@ const data = {
             name: "kakarot",
             price: 34.99,
             image: "./assets/clothes9Small.png"
+        },
+        {
+            id:"10",
+            name: "hand of god",
+            price: 21.99,
+            image: "./assets/clothes1Small.png"
         }
+        
     ]
 } 
 
