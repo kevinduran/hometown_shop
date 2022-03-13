@@ -3,7 +3,7 @@ const data = {
     productItems:[
         {
             id:"1",
-            name: "hometown in my blood",
+            name: "hometown",
             price: 39.99,
             image: "./assets/clothes10.png"
         },

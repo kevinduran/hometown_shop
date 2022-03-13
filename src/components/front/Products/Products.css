@@ -19,9 +19,8 @@
     overflow: hidden;
     padding: 10px;
     margin:20px 20px;
-    
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-
 .product-image{
     width:80%;
     max-width: 300px;
@@ -49,15 +48,15 @@
 }
 
 .product-add-button {
-    font-weight: 700;
+    font-weight: bolder;
     font-size:18px;
     border-radius:5px;
     border: none;
     outline:none;
-    background-color: black;
-    color: white;
-    width: 80%;
-    height: 40px;
+    background-color:  rgba(245, 199, 26, 1);
+    color: rgb(17, 15, 15);
+    width: 69%;
+    height: 45px;
     display: block;
     cursor: pointer;
     text-transform: uppercase;
