@@ -1,4 +1,6 @@
 import React from 'react'
+import { FaTrash } from 'react-icons/fa';
+
 import './Cart.css'
 
 function Cart({cartItems,handleAddProduct,handleRemoveProduct,handleCartClearance}) {
@@ -30,13 +32,17 @@ function Cart({cartItems,handleAddProduct,handleRemoveProduct,handleCartClearanc
                             <div className="cart-items-name">
                                 {item.name}
                             </div>
+                            <div className="cart-items-price">
+                                ${item.price} <small> * {item.quantity}</small>
+                            </div>
                             <div className="cart-items-functions">
                                 <button className="cart-items-add" onClick={()=> handleAddProduct(item)}>+</button>
                                 <button className="cart-items-remove" onClick={()=> handleRemoveProduct(item)}>-</button>
                             </div>
-                            <div className="cart-items-price">
-                                {item.quantity} * ${item.price}
-                            </div>
+                           
+                        </div>
+                        <div>
+                        <FaTrash className='trash'/>
                         </div>
                         
 
