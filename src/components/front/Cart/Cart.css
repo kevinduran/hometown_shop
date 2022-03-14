@@ -1,5 +1,5 @@
 .cart-items{
-    margin: 30px auto;
+    margin: 3em auto 2em ;
     width:50%;
     color: rgb(32, 32, 32);
     box-shadow: rgba(149, 157, 165, 0.49) 0px 8px 24px;
@@ -132,16 +132,37 @@
 }
 
 .trash{
-    color: rgb(90, 88, 88);
+    color: rgb(185, 24, 24);
     font-size: 16.9px;
     cursor: pointer;
 }
 
 .trash:hover{
-    color: rgb(153, 35, 35);
+    color: rgb(121, 16, 16);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
     
+}
+
+.checkout{
+    margin: 0 0 8em 0;
+}
+
+.checkout button {
+    border:none;
+    border-radius:5px;
+    background-color: rgb(15, 150, 22);
+    height: 40px;
+    width: 140px;
+    font-size: 22px;
+    letter-spacing: 2.5px;
+    color: white;
+    cursor: pointer;
+    margin: 30px auto; 
+}
+.checkout button:hover {
+    background-color: rgb(11, 99, 15);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 

@@ -8,7 +8,8 @@ function Cart({cartItems,handleAddProduct,handleRemoveProduct, handleCartItemCle
     
         const totalPrice = cartItems.reduce((price,item)=>price + item.quantity * item.price, 0)
     return (
-        <div className="cart-items">
+        <>
+         <div className="cart-items">
             <h2 className="cart-items-header">Cart Items</h2>
             <div className="clear-cart">
                 {cartItems.length >= 1 &&(
@@ -56,9 +57,17 @@ function Cart({cartItems,handleAddProduct,handleRemoveProduct, handleCartItemCle
                     : ${totalPrice}
                 </div>
             </div>
+           
         </div>  
+
+        {cartItems.length != 0 && (
+            <div className='checkout'>
+                <button>checkout</button>
+            </div>
+        )}
         
         
+        </>    
     )
 }
 
