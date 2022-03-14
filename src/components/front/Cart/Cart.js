@@ -3,7 +3,7 @@ import { FaTrash } from 'react-icons/fa';
 
 import './Cart.css'
 
-function Cart({cartItems,handleAddProduct,handleRemoveProduct,handleCartClearance}) {
+function Cart({cartItems,handleAddProduct,handleRemoveProduct, handleCartItemClearance,handleCartClearance}) {
     
     
         const totalPrice = cartItems.reduce((price,item)=>price + item.quantity * item.price, 0)
@@ -41,8 +41,8 @@ function Cart({cartItems,handleAddProduct,handleRemoveProduct,handleCartClearanc
                             </div>
                            
                         </div>
-                        <div>
-                        <FaTrash className='trash'/>
+                        <div onClick={()=>handleCartItemClearance(item.name)}>
+                            <FaTrash className='trash' />
                         </div>
                         
 

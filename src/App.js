@@ -37,9 +37,16 @@ function App() {
     }
   }
 
+ 
   const handleCartClearance = () => {
     setCartItems([])
   }
+  const handleCartItemClearance = (item) => {
+    const filteredCart = cartItems.filter(product => product.name !== item )
+    setCartItems(filteredCart)
+  }
+
+  
 
   return (
     <div className="App">
@@ -51,6 +58,7 @@ function App() {
           handleAddProduct={handleAddProduct}
           handleRemoveProduct={handleRemoveProduct}
           handleCartClearance={handleCartClearance}
+          handleCartItemClearance={handleCartItemClearance}
         />
       </Router>
     </div>
