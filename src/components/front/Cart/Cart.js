@@ -60,7 +60,7 @@ function Cart({cartItems,handleAddProduct,handleRemoveProduct, handleCartItemCle
            
         </div>  
 
-        {cartItems.length != 0 && (
+        {cartItems.length !== 0 && (
             <div className='checkout'>
                 <button>checkout</button>
             </div>
