@@ -7,7 +7,7 @@ body{
     margin:0;
     padding:0;
 }
-.App{
+.App{ 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,30 +16,50 @@ body{
     position: relative;
 }
 .coming_soon{
+    width: 50vw;
+    text-align: center;
     position: relative;
-    top:-15%;
-    width: 100vw;
+    top: -5%;
 }
 .coming_soon h1{
-    font-size: 5em;
-    color:white;
+    font-size: 4em;
+    font-weight: 100;
+    position: relative;
+    top:15px;
+}
+.coming_soon-small-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coming_soon-small-container img{
+    max-width: 40%;
+}
+.coming_soon-small-container h3{
+    font-size:1.6em;
+    padding: 0 5px;
     font-weight: 100;
 }
-
-.coming_soon_logo{
-    max-width: 50%;
-    min-width: 100px;
+.coming_soon-small-container h6{
+    transform:rotate(25deg);
+    color:rgba(245, 199, 26, 0.7);;
+    padding: 5px;
+    font-size: 1.3em;
+    letter-spacing: 2.7px;
 }
 
 .coming_soon_button{
+    
     border:3px solid rgba(245, 199, 26, 0.7);
     background-color: transparent;
     padding: 15px 50px;
-    font-size: 0.8em;
+    font-size: 1em;
     letter-spacing: 2.3px;
     color:white;
     transition:0.5s ease all;
+    cursor: pointer;
 }
 .coming_soon_button:hover{
    background-color:  rgba(245, 199, 26, 0.3);
+   
 }
