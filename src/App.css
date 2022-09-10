@@ -16,3 +16,9 @@ body{
 .coming_soon_logo{
     max-width: 300px;
 }
+
+.coming_soon_button{
+    border:1px solid rgba(245, 199, 26, 0.7);
+    background-color: transparent;
+    
+}

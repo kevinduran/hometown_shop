@@ -14,7 +14,7 @@ function App() {
             <h6>2.0</h6>
           </div>
         </div>
-        <a href='https://hometownbarbershop805.com/'><button>go back</button></a>
+        <a href='https://hometownbarbershop805.com/'><button className='coming_soon_button'>go back</button></a>
       </div>
       
     </div>
